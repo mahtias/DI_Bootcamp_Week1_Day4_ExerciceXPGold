@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    font-family: "Raleway";
+}
+
+header {
+    background-image: url("img/background2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+
+nav{
+    height: 50px;
+}
+
+.nav-link,
+.navbar-brand {
+    color: white;
+}
+
+.btn-outline-secondary{
+    border-color: white;
+    color: white;
+}
+
+.btn-outline-secondary:hover{
+    color:#0D5EB7;
+    background-color: white;
+}
+
+.text-header{
+    text-align: center;
+    height: 450px;
+}
+.text-header p{
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+}
+
+.content-page h3{
+    color: #7D9CC2;
+}
+.content-page a{
+    text-decoration: none;
+}
+.icon-title{
+    font-size: 50px;
+    color: #7D9CC2;
+}
+
+@media screen and (max-width: 768px) {
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    .navbar-toggler {
+        border-color: rgb(255, 255, 255);
+    }
+
+    .navbar-collapse{
+        background-color: #7D9CC2;
+        padding-left: 20px;
+    }
+
+    .text-header p{
+        font-size: 20px;
+    }
+}
